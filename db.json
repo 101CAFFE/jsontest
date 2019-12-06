@@ -1,11 +1,27 @@
 {
-  "primary": "#6200EE",
-  "accent": "#3700B3",
-  "azienda": "101 Caffè",
-  "nickname": "NICK",
-  "permessi": {
-    "carico": "write",
-    "scarico": "read",
-    "configura": "hide"
-  }
+  "configuration": {
+    "primary": "#6200EE",
+    "accent": "#3700B3",
+    "azienda": "101 Caffè",
+    "nickname": "NICK",
+    "permessi": {
+      "carico": "write",
+      "scarico": "read",
+      "configura": "hide"
+    }
+  },
+  "carichi": [
+    {
+      "codice": 1,
+      "note": "descrizione 1",
+      "fornitore": "601.00001",
+      "data": "2019-10-29T08:14:32.850Z"
+    },
+    {
+      "codice": 2,
+      "note": "descrizione 2",
+      "fornitore": "601.00001",
+      "data": "2019-10-28T08:11:00.850Z"
+    }
+  ]
 }
